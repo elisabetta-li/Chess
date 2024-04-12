@@ -1,0 +1,53 @@
+.support-info {
+    margin-top: 30px;
+    margin-bottom: 28px;
+}
+.support-info-lecture, .support-info-game {
+    flex-direction: column;
+    justify-content: center;
+}
+.support-lecture-img {
+    margin: 24px auto;
+    width: 335px;
+}
+.support-game-img {
+    margin: 24px auto 36px auto;
+    width: 374px;
+    height: 402px;
+}
+
+@media (min-width: 772px) {
+    .support-lecture-img {
+        width: 394px;  
+        
+    }
+    .support-game-img {
+        height: 609px;
+        width: 501px;  
+        
+    }
+}
+@media (min-width: 1250px) {
+    .support-info {
+        margin-top: 121px;
+    }
+    .support-info-lecture, .support-info-game {
+        flex-direction: row;
+    }
+    .support-info-game {
+        h3 {
+            margin-top: 66px;
+            margin-left: 17px;
+        }
+    }
+    .support-info-lecture {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .support-lecture-img {
+        margin: 0;
+    }
+    #support-header-mob {
+        display: none;
+    }
+}
